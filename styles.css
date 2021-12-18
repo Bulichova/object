@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+ul > li {
+  display: flex;
+  align-items: baseline;
+}
+ul > li::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: rgb(32, 32, 27);
+  margin-right: 10px;
+}
