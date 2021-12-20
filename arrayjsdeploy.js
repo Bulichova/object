@@ -82,4 +82,3 @@ result = defaultArray.some((elem) => {
   let condition = typeof elem.age === "number";
   return condition;
 });
-console.log("some", result);
