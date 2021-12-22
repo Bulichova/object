@@ -90,7 +90,7 @@ body.insertAdjacentElement("afterend", button4);
 body.after(text4);
 
 body.insertAdjacentHTML("afterbegin", link);
-body.innerHTML += span;
+// body.innerHTML += span;
 // body.innerHTML = ""; //зачищает всё содержимое в боди
 // body.style.backgroundColor = "aquamarine";
 
@@ -99,4 +99,7 @@ const cloneButton1 = button1.cloneNode(true); //глубокое со всем �
 console.log(cloneButton1);
 const cloneButton2 = button2.cloneNode(false); //неглубокое без содержимого
 console.log(cloneButton2);
-const cloneLink = link.cloneNode(true);
+// const cloneLink = link.cloneNode(true);
+
+// Удаление
+body.removeChild(text3);
