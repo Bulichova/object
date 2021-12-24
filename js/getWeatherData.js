@@ -24,6 +24,7 @@ export function getWeatherData(city, apiId, innerPlace) {
             }
           })
           if (weatherIconMarkup) {
+            weatherIconMarkup = weatherIconMarkup.join('')
             markup = `<div><h2>${
               data.name
             }</h2>${weatherIconMarkup}<p>${Math.round(
