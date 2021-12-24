@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
 }
@@ -17,4 +18,20 @@ ul > li::before {
   height: 10px;
   background: rgb(32, 32, 27);
   margin-right: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchForm {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  width: 200px;
+}
+.searchForm input,
+.searchForm button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
 }
