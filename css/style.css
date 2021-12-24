@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  width: 200px;
+}
+.search-form input,
+button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
